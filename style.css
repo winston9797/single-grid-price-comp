@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+}
+body{
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+.wrapper{
+    width: 650px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+
+.box1{
+    padding: 20px 40px;
+}
+
+.box1 h1{
+    margin: 20px 0;
+    font-size: 20px;
+    color: hsl(179, 62%, 43%);
+}
+
+.box1 .sub-title{
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box1 .sub-text{
+    margin: 20px 0;
+    color: hsl(0, 0%, 60%);
+}
+
+.box4{
+    display: flex;
+}
+@media (max-width:354px) {
+    .box4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .box2, .box3{
+        width: 100% !important;
+    }
+    .box3{
+        padding-bottom: 80px !important;
+    }
+}
+
+.box2{
+    padding: 20px 40px;
+    flex: 1 1 50%;
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+    padding: 20px 40px;
+}
+.box2 h2{
+    font-size: 16px;
+    margin: 20px 0;
+
+}
+.box2 .price{
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.box2 .price span{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #e8fcfb !important;
+}
+.box3{
+    flex: 1 1 50%;
+    width: 50%;
+    background-color: gray;
+    padding: 20px 40px;
+}
+.btn{
+    padding: 20px;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    display: block;
+    margin-block: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box3{
+    background-color: #49BEBD;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.box3 h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.box3 p{
+    color: #e8fcfb;
+}
